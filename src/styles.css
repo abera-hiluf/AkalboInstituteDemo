@@ -7,3 +7,4 @@
  .brand>span:last-child::after{content:'ኣቃልቦ';font-size:20px}.mobile-brand::after{content:'ኣቃልቦ';font-size:16px}
  /* Free-first launch: keep the future pricing fields in demo data, but remove them from the current experience. */
 .card-foot>span:first-child{font-size:0}.card-foot>span:first-child::after{content:'Free session';font-size:12px;color:var(--teal)}.service strong{font-size:0}.service strong::after{content:'Free';font-size:13px;color:var(--teal)}.booking-total b{font-size:0}.booking-total b::after{content:'Free session';font-size:14px;color:var(--teal)}.demo-note::after{content:' · No payment required';color:var(--teal)}.side-nav a:last-child{display:none}
+.card-foot>span:first-child b{font-size:0}.card-foot>span:first-child b::after{content:'Free session';font-size:12px;font-weight:600;color:var(--teal)}
